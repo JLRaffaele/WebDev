@@ -1,0 +1,46 @@
+<head>
+    <!--removeIf(production)-->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <!--endRemoveIf(production)-->
+
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+
+<a href="index.html">Home</a>
+<a href="person page.html">Person Page</a>
+<a href="login page.html">Login</a>
+<a href="login page.html">Logoff</a>
+
+<body>
+    <h1 class="Table_Header">Student Table</h1>
+    <table>
+        
+        <thead>
+            <tr>
+                <th>StudentID</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+        <!-- inject:js -->
+        <!-- endinject -->
+
+        <!--removeIf(production)-->
+        <script src='js/students.js'></script>
+        <!--endRemoveIf(production)-->
+
+
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                initializeStudents();
+            });
+        </script>
+    </body>
+</html>
+</body>
