@@ -38,7 +38,6 @@
                         this.students = response.data;
                     },
                     (error) => {
-                        console.log("a")
                         console.log(error)
                     }
                 );  

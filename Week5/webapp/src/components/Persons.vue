@@ -3,40 +3,18 @@
         <h1 class="Table_Header">People Table</h1>
     <table>
 
-        <tr>
-            <th>Firstname</th>
-            <th>Middle Initial</th> 
-            <th>Lastname</th>
-        </tr>
-
-        <tr>
-            <td>Jill</td>
-            <td>A</td> 
-            <td>Smith</td>
-        </tr>
-
-        <tr>
-            <td>Eve</td>
-            <td>F</td> 
-            <td>Jackson</td>
-        </tr>
-
-        <tr>
-            <td>Beth</td>
-            <td>S</td> 
-            <td>Wallace</td>
-        </tr>
-
-            <td>John</td>
-            <td>L</td> 
-            <td>Sullivan</td>
-        </tr>
-
-        </tr>
-            <td>Frank</td>
-            <td>T</td> 
-            <td>Max</td>
-        </tr>
+        <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="person in persons">
+                        <td>{{ person.firstname }}</td>
+                        <td>{{ person.lastname }}</td>
+                    </tr>
+                </tbody>
 
 
         </table>
