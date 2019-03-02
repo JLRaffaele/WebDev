@@ -12,10 +12,10 @@ public class Person
     public string first_name {get; set;}
 
     [Column("middle_name")]
-    public decimal middle_name {get; set;}
+    public string middle_name {get; set;}
 
     [Column("last_name")]
-    public int last_name {get; set;}
+    public string last_name {get; set;}
 
     public Student Student { get; set; }
 }

@@ -26,7 +26,7 @@ namespace webapi.Controllers
         }
 
         [HttpGet("{personId}")]
-        public ActionResult<Person> GetStudent(int personId)
+        public ActionResult<Person> GetPerson(int personId)
         {
             var person = _dbContext.Person
                 .SingleOrDefault(p => p.personId == personId);
@@ -37,7 +37,7 @@ namespace webapi.Controllers
                 return NotFound();
             }
         }
-
+/*
         [HttpPost]
         public ActionResult<Person> AddPerson(Person person)
         {
@@ -80,5 +80,7 @@ namespace webapi.Controllers
 
             return NoContent();
         }
+        */
     }
+    
 }
