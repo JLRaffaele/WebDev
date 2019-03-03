@@ -22,13 +22,13 @@ namespace webapi.Controllers
         [HttpGet]
         public ActionResult<List<Student>> GetAllStudents()
         {
-            return Ok(_dbContext.Student.Include(p => p.Person).ToList());
+            return Ok(_dbContext.Students.Include(p => p.Person).ToList());
         }   
-
+        /*
         [HttpGet("{studentId}")]
         public ActionResult<Student> GetStudent(int studentId)
         {
-            var student = _dbContext.Student
+            var student = _dbContext.Students
                 .SingleOrDefault(p => p.studentId == studentId);
 
             if (student != null) {
@@ -37,5 +37,6 @@ namespace webapi.Controllers
                 return NotFound();
             }
         }
+        */
     }
 }

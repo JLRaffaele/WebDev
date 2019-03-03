@@ -22,13 +22,13 @@ namespace webapi.Controllers
         [HttpGet]
         public ActionResult<List<Person>> GetAllPersons()
         {
-            return Ok(_dbContext.Person.Include(p => p.Student).ToList());
+            return Ok(_dbContext.Persons.Include(p => p.Student).ToList());
         }
-
+/*
         [HttpGet("{personId}")]
         public ActionResult<Person> GetPerson(int personId)
         {
-            var person = _dbContext.Person
+            var person = _dbContext.Persons
                 .SingleOrDefault(p => p.personId == personId);
 
             if (person != null) {
@@ -37,7 +37,7 @@ namespace webapi.Controllers
                 return NotFound();
             }
         }
-/*
+
         [HttpPost]
         public ActionResult<Person> AddPerson(Person person)
         {
