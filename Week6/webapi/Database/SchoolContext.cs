@@ -13,7 +13,7 @@ namespace Database
             modelBuilder.Entity<Person>()
                 .HasOne(p => p.Student)
                 .WithOne(i => i.Person)
-                .HasForeignKey<Student>(b => b.PersonForeignKey);
+                .HasForeignKey<Student>(b => b.personID);
             
         }
         public SchoolContext(DbContextOptions<SchoolContext> options) : base(options)         
@@ -36,7 +36,7 @@ namespace Database
             public int studentId {get;set;}
             public string email_address {get;set;}
 
-            public int PersonForeignKey {get;set;}
+            public int personID {get;set;}
             public Person Person {get;set;}
         }
     }
