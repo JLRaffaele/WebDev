@@ -18,13 +18,13 @@ export default new Router({
       component: Home
     },
     {
-      path: '/students',
-      name: 'Students',
+      path: '/student',
+      name: 'Student',
       component: Students
     },
     {
-      path: '/persons',
-      name: 'Persons',
+      path: '/person',
+      name: 'Person',
       component: Persons
     }
   ]

@@ -10,9 +10,9 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="person in persons">
-                        <td>{{ person.firstname }}</td>
-                        <td>{{ person.lastname }}</td>
+                    <tr v-for="person in persons" :key="person.personID">
+                        <td>{{ person.first_name }}</td>
+                        <td>{{ person.last_name }}</td>
                     </tr>
                 </tbody>
 

@@ -17,10 +17,10 @@ export default {
       this.$router.push({ path: 'home' })
     },
     goToPersons: function() {
-      this.$router.push({ path: 'persons' })
+      this.$router.push({ path: 'person' })
     },
     goToStudents: function() {
-      this.$router.push({ path: 'students' })
+      this.$router.push({ path: 'student' })
     }
   }
 }

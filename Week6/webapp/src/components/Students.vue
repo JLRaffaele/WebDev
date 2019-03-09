@@ -10,9 +10,9 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="student in students">
-                        <td>{{ student.studentID }}</td>
-                        <td>{{ student.email }}</td>
+                    <tr v-for="student in students":key="student.studentID">
+                        <td>{{ student.studentId }}</td>
+                        <td>{{ student.email_address }}</td>
                     </tr>
                 </tbody>
             </table>
