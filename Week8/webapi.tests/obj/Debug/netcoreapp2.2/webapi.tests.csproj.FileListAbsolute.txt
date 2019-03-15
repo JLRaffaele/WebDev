@@ -1,0 +1,17 @@
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\bin\Debug\netcoreapp2.2\webapi.tests.deps.json
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\bin\Debug\netcoreapp2.2\webapi.tests.runtimeconfig.json
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\bin\Debug\netcoreapp2.2\webapi.tests.runtimeconfig.dev.json
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\bin\Debug\netcoreapp2.2\webapi.tests.dll
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\bin\Debug\netcoreapp2.2\webapi.tests.pdb
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\obj\Debug\netcoreapp2.2\webapi.tests.csprojAssemblyReference.cache
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\obj\Debug\netcoreapp2.2\webapi.tests.csproj.CoreCompileInputs.cache
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\obj\Debug\netcoreapp2.2\webapi.tests.AssemblyInfoInputs.cache
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\obj\Debug\netcoreapp2.2\webapi.tests.AssemblyInfo.cs
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\obj\Debug\netcoreapp2.2\webapi.tests.dll
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\obj\Debug\netcoreapp2.2\webapi.tests.pdb
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\bin\Debug\netcoreapp2.2\webapi.dll
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\bin\Debug\netcoreapp2.2\webapi.pdb
+C:\Users\raffaele\desktop\cst356\week8\webapi.tests\obj\Debug\netcoreapp2.2\webapi.tests.csproj.CopyComplete
